@@ -1,8 +1,10 @@
-# QCM patron de conception 2026
+# QCM patrons de conception 2026
+
+> Une seule bonne réponse par question.
 
 ## Question 1
 
-Avec le code suivant :
+Avec le code suivant, quelle affirmation est vraie ?
 
 ```ts
 const a = new Point([2.0, 3.0]);
@@ -35,12 +37,12 @@ Une application a été livrée avec une API publique mal conçue. Les clients l
 
 ## Question 4
 
-En développant mon propre système de log, je peux affirmer que :
+Développer son propre système de log plutôt qu'utiliser une bibliothèque existante relève de l'anti-patron :
 
-* [ ] A : Je rendrai mon application plus facilement paramétrable
-* [ ] B : Je réinventerai la roue
-* [ ] C : Je me prendrai un coup de marteau doré
-* [ ] D : Je ferai de l'optimisation prématurée
+* [ ] A : Coup de marteau doré
+* [ ] B : Réinventer la roue (carrée)
+* [ ] C : Optimisation prématurée
+* [ ] D : Coulée de lave
 
 ## Question 5
 
@@ -70,6 +72,7 @@ class Coordinate extends Logger {
 * [ ] A : `Math.pow(dx, 2.0)` est moins performant que `dx * dx`
 * [ ] B : La console va être polluée par des logs inutiles
 * [ ] C : `Coordinate` hérite de `Logger`
+* [ ] D : `distance` devrait être une méthode statique
 
 ## Question 7
 
